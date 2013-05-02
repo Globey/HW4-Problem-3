@@ -1,12 +1,12 @@
 HW4-Problem-3
 =============
 
-<p>
-Find my secret rational number. *
+<p><b>
+Find my secret rational number. 
 I made up a rational number alpha whose numerator and denominator each have 7 digits. 
 Here's two facts about that rational number: (1) it is congruent to 372806624339965 modulo 37+10^15; 
 (2) its decimal expansion begins 0.13869616280169693.... What do you think my rational number is?
-</p>
+</b></p>
 
 sage: c = continued_fraction(0.13869616280169693) <br>
 sage: c.convergents() <br>
