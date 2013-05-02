@@ -24,7 +24,7 @@ rational numbers with 7 digits in both the numerator and the denominator.
 I knew it was most likely the ultra-contrived-looking 1234567/8901234 and the following code confirmed it. Based on the
 congruency that was given.
 
-sage: (1234567/8901234)%1000000000000037==372806624339965%1000000000000037
+sage: (1234567/8901234)%1000000000000037==372806624339965%1000000000000037 <br>
 output: True
 
 Therefore the number is 1234567/8901234
